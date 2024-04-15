@@ -19,5 +19,17 @@ btnEntrar.addEventListener("click",(e)=> {
    apellidoV = apellido.value;
    edadV = edad.value;
 
+   
+   if(nombreV === ""){
+    alert ("ponte vio aweonao")
+    return;
+   }
+   if(apellidoV === ""){
+    return;
+   }
+   if(edadV === ""){
+    return;
+   }
+
     console.log(`nombre: ${nombreV} y el apellido es: ${apellidoV} y la edad es: ${edadV}`);
 })
